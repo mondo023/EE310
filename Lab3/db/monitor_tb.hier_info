@@ -1,0 +1,22 @@
+|monitor_tb
+LEDG[0] <= monitor:inst.status
+SW[0] => monitor:inst.switch_in
+KEY[0] => monitor:inst.push_in[0]
+KEY[1] => monitor:inst.push_in[1]
+
+
+|monitor_tb|monitor:inst
+push_in[0] => Equal0.IN1
+push_in[0] => Equal1.IN0
+push_in[0] => Equal2.IN1
+push_in[0] => Equal3.IN1
+push_in[1] => Equal0.IN0
+push_in[1] => Equal1.IN1
+push_in[1] => Equal2.IN0
+push_in[1] => Equal3.IN0
+switch_in => process_0.IN1
+switch_in => process_0.IN1
+switch_in => status.IN1
+status <= status$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

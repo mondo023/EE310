@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dI:/EE 310/altera/lab3
+Emonitor
+Z1 w1486493722
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8I:/EE 310/altera/lab3/monitor.vhd
+Z5 FI:/EE 310/altera/lab3/monitor.vhd
+l0
+L5
+VmX>NiGkPjBSDcDC5R>8mZ3
+!s100 UndUa7IG55We`S_5B7DcF0
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1486493822
+!i10b 1
+Z8 !s108 1486493822.000000
+Z9 !s90 -reportprogress|300|-work|work|I:/EE 310/altera/lab3/monitor.vhd|
+Z10 !s107 I:/EE 310/altera/lab3/monitor.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1
+Abehav
+R2
+R3
+DEx4 work 7 monitor 0 22 mX>NiGkPjBSDcDC5R>8mZ3
+l13
+L12
+VI1FXg=JJT>ARTZERl]fWc2
+!s100 =0Jdz0XT2;gel^fGkjEd?3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseg7
+Z13 w1486668280
+R2
+R3
+R0
+Z14 8I:/EE 310/altera/lab3/seg7.vhd
+Z15 FI:/EE 310/altera/lab3/seg7.vhd
+l0
+L5
+Vo>5o_CLL;z^ZD5<aZazQS0
+!s100 o1S`fVebKV8J5Vo8[:]TN1
+R6
+32
+Z16 !s110 1486670013
+!i10b 1
+Z17 !s108 1486670012.000000
+Z18 !s90 -reportprogress|300|-work|work|I:/EE 310/altera/lab3/seg7.vhd|
+Z19 !s107 I:/EE 310/altera/lab3/seg7.vhd|
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 4 seg7 0 22 o>5o_CLL;z^ZD5<aZazQS0
+l17
+L16
+VTdk6j[8iH`HczndYB3DFo3
+!s100 >eL7S6m2DNkk4jebB<Kg20
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eseg7_tb
+Z20 w1486669077
+Z21 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z22 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 7m_3?ER^m`lJ;P@g>WSdP3
+Z23 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z24 DPx8 cyclonev 19 cyclonev_components 0 22 Y1SMazmlfT^N6ce3cZcWb3
+R2
+R3
+Z25 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 Oc7BZ>JHn==<@iL2AS6dl0
+R0
+Z26 8I:/EE 310/altera/lab3/simulation/modelsim/seg7_tb.vho
+Z27 FI:/EE 310/altera/lab3/simulation/modelsim/seg7_tb.vho
+l0
+L37
+VTHi0F6Y7>>OeCMbz^=l230
+!s100 6eij680T6LWL::dUXXU=R0
+R6
+32
+Z28 !s110 1486670198
+!i10b 1
+Z29 !s108 1486670197.000000
+Z30 !s90 -reportprogress|300|-work|work|I:/EE 310/altera/lab3/simulation/modelsim/seg7_tb.vho|
+Z31 !s107 I:/EE 310/altera/lab3/simulation/modelsim/seg7_tb.vho|
+!i113 1
+R11
+R12
+Astructure
+R21
+R22
+R23
+R24
+R2
+R3
+R25
+DEx4 work 7 seg7_tb 0 22 THi0F6Y7>>OeCMbz^=l230
+l121
+L72
+VS1]L?PjnWfR9fc0?WUHe90
+!s100 >1SgbQagGI9??oDP^zI0A3
+R6
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R12

@@ -1,0 +1,30 @@
+-- seg7.vhd
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity seg7 is
+	port (
+		# inputs
+		push_in : in std_logic_vector(7 downto 0);
+		switch_blank : in std_logic;
+		switch_test : in std_logic;
+		# output LEDs
+		output_LED1 : out std_logic_vector(6 downto 0);
+		output_LED2 : out std_logic_vector(6 downto 0);
+		
+		
+);
+end seg7;
+architecture behav of seg7 is
+begin
+	process(switch_blank, switch_test, push_in)
+		IF (swtich_blank = '1' AND switch_test = '0') OR (swtich_blank = '1' AND switch_test = '1')THEN
+			output_LED1 <= "1111111"
+			output_LED2 <= "1111111"
+		ELSIF swtich_blank = '0' AND switch_test = '1' THEN
+			output_LED1 <= "0000000"
+			output_LED2 <= "0000000"
+		ELSE
+			
+	end process;
+end behav;
