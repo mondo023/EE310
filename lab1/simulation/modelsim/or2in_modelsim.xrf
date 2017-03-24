@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, I:/EE 310/lab1/or2in.bdf
+source_file = 1, I:/EE 310/lab1/db/or2in.cbx.xml
+design_name = or2in
+instance = comp, \ledr0~output\, ledr0~output, or2in, 1
+instance = comp, \sw1~input\, sw1~input, or2in, 1
+instance = comp, \sw0~input\, sw0~input, or2in, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, or2in, 1

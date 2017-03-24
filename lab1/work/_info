@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dI:/EE 310/lab1
+Eor2in
+Z1 w1484845237
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 7m_3?ER^m`lJ;P@g>WSdP3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 Y1SMazmlfT^N6ce3cZcWb3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 Oc7BZ>JHn==<@iL2AS6dl0
+R0
+Z9 8I:/EE 310/lab1/simulation/modelsim/or2in.vho
+Z10 FI:/EE 310/lab1/simulation/modelsim/or2in.vho
+l0
+L37
+V2:3QMR:E2e[;[d_hnZ2FQ1
+!s100 o0I0JB5XK>MULg>kRD[IG1
+Z11 OV;C;10.4d;61
+32
+Z12 !s110 1484847802
+!i10b 1
+Z13 !s108 1484847801.000000
+Z14 !s90 -reportprogress|300|-work|work|I:/EE 310/lab1/simulation/modelsim/or2in.vho|
+Z15 !s107 I:/EE 310/lab1/simulation/modelsim/or2in.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 5 or2in 0 22 2:3QMR:E2e[;[d_hnZ2FQ1
+l71
+L51
+V`WaGcd`o<PVB1=>El][=>0
+!s100 j1?4_FUZ[mF82ejM_TChM1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17

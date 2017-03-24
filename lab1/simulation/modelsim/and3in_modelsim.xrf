@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, I:/EE 310/lab1/or2in.bdf
+source_file = 1, I:/EE 310/lab1/and3in.bdf
+source_file = 1, I:/EE 310/lab1/db/and3in.cbx.xml
+design_name = and3in
+instance = comp, \ledr0~output\, ledr0~output, and3in, 1
+instance = comp, \sw2~input\, sw2~input, and3in, 1
+instance = comp, \sw0~input\, sw0~input, and3in, 1
+instance = comp, \sw1~input\, sw1~input, and3in, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, and3in, 1

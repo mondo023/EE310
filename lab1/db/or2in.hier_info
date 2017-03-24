@@ -1,0 +1,6 @@
+|or2in
+ledr0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+sw1 => inst2.IN0
+sw0 => inst2.IN1
+
+
