@@ -1,0 +1,24 @@
+restart -f
+force clk 0 0ns, 1 50ns -r 100ns
+force load_ac 0 0ns, 1 100ns -r 500ns
+
+force ac_input X"01"
+run 80ns
+force ac_input X"02"
+run 80ns
+force ac_input X"03"
+run 80ns
+force ac_input X"15"
+run 80ns
+force ac_input X"22"
+run 80ns
+force ac_input X"F2"
+run 80ns
+force ac_input X"D3"
+run 80ns
+force ac_input X"FF"
+run 80ns
+force ac_input X"AA"
+run 80ns
+force ac_input X"AB"
+run 80ns

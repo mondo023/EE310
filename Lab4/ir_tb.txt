@@ -1,0 +1,47 @@
+restart -f
+force clk 0 0ns, 1 50ns -r 100ns
+force reset 0 0ns, 1 800ns -r 1600ns
+force load_iru 0 0ns, 1 400ns -r 800ns
+force load_irl 0 0ns, 1 200ns -r 400ns
+
+
+force instruction_field X"01"
+run 80ns
+force instruction_field X"02"
+run 80ns
+force instruction_field X"03"
+run 80ns
+force instruction_field X"15"
+run 80ns
+force instruction_field X"22"
+run 80ns
+force instruction_field X"F2"
+run 80ns
+force instruction_field X"D3"
+run 80ns
+force instruction_field X"FF"
+run 80ns
+force instruction_field X"AA"
+run 80ns
+force instruction_field X"AB"
+run 80ns
+force instruction_field X"11"
+run 80ns
+force instruction_field X"12"
+run 80ns
+force instruction_field X"C3"
+run 80ns
+force instruction_field X"25"
+run 80ns
+force instruction_field X"66"
+run 80ns
+force instruction_field X"89"
+run 80ns
+force instruction_field X"A7"
+run 80ns
+force instruction_field X"F0"
+run 80ns
+force instruction_field X"AE"
+run 80ns
+force instruction_field X"9A"
+run 80ns

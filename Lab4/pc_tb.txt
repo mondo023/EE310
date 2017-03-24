@@ -1,0 +1,26 @@
+restart -f
+force clk 0 0ns, 1 50ns -r 100ns
+force reset 1 0ns, 0 400ns -r 800ns
+force load_pc 0 0ns, 1 200ns -r 400ns
+force incr_pc 0 0ns, 1 100ns -r 200ns
+
+force addr_value X"01"
+run 80ns
+force addr_value X"02"
+run 80ns
+force addr_value X"03"
+run 80ns
+force addr_value X"15"
+run 80ns
+force addr_value X"22"
+run 80ns
+force addr_value X"F2"
+run 80ns
+force addr_value X"D3"
+run 80ns
+force addr_value X"FF"
+run 80ns
+force addr_value X"AA"
+run 80ns
+force addr_value X"AB"
+run 80ns
