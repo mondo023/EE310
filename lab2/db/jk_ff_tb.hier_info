@@ -1,0 +1,22 @@
+|jk_ff_tb
+ledr0 <= jk_ff:inst.q
+key0 => jk_ff:inst.clk
+sw0 => jk_ff:inst.j
+sw1 => jk_ff:inst.k
+key1 => jk_ff:inst.reset
+
+
+|jk_ff_tb|jk_ff:inst
+clk => a.CLK
+j => process_0.IN0
+j => process_0.IN0
+j => process_0.IN0
+j => process_0.IN0
+k => process_0.IN1
+k => process_0.IN1
+k => process_0.IN1
+k => process_0.IN1
+reset => a.ACLR
+q <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+

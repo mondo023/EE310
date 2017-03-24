@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, I:/EE 310/altera/lab2/d_ff.vhd
+source_file = 1, I:/EE 310/altera/lab2/and2in.vhd
+source_file = 1, I:/EE 310/altera/lab2/d_ff_tb.bdf
+source_file = 1, c:/altera/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, I:/EE 310/altera/lab2/db/d_ff_tb.cbx.xml
+design_name = d_ff_tb
+instance = comp, \ledr0~output\, ledr0~output, d_ff_tb, 1
+instance = comp, \key1~input\, key1~input, d_ff_tb, 1
+instance = comp, \sw0~input\, sw0~input, d_ff_tb, 1
+instance = comp, \inst|q~feeder\, inst|q~feeder, d_ff_tb, 1
+instance = comp, \key0~input\, key0~input, d_ff_tb, 1
+instance = comp, \inst|q\, inst|q, d_ff_tb, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, d_ff_tb, 1

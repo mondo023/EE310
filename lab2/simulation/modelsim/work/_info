@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dI:/EE 310/altera/lab2/simulation/modelsim
+Eand2in
+Z1 w1485453529
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 7m_3?ER^m`lJ;P@g>WSdP3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 Y1SMazmlfT^N6ce3cZcWb3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 Oc7BZ>JHn==<@iL2AS6dl0
+R0
+Z9 8I:/EE 310/altera/lab2/simulation/modelsim/and2in.vho
+Z10 FI:/EE 310/altera/lab2/simulation/modelsim/and2in.vho
+l0
+L37
+V8Bc677eUoN@kZO=OdVFOJ1
+!s100 c<N7CQ2O0c:>Q@FNNFISK0
+Z11 OV;C;10.4d;61
+32
+Z12 !s110 1485881030
+!i10b 1
+Z13 !s108 1485881029.000000
+Z14 !s90 -reportprogress|300|-work|work|I:/EE 310/altera/lab2/simulation/modelsim/and2in.vho|
+Z15 !s107 I:/EE 310/altera/lab2/simulation/modelsim/and2in.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 6 and2in 0 22 8Bc677eUoN@kZO=OdVFOJ1
+l71
+L51
+V=5oE1H65TR<SIcdIVIPF:2
+!s100 [oG`]nkd1:K<o6eVV^C652
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Ed_ff_tb
+Z18 w1485457330
+R3
+R5
+R8
+R2
+Z19 DPx6 altera 11 dffeas_pack 0 22 f]3lf9@YecQXY?:9nU3z[2
+R4
+R6
+R7
+Z20 DPx6 altera 28 altera_primitives_components 0 22 Y1<AEW^7fEcRY3jd0@`=U2
+R0
+Z21 8I:/EE 310/altera/lab2/simulation/modelsim/d_ff_tb.vho
+Z22 FI:/EE 310/altera/lab2/simulation/modelsim/d_ff_tb.vho
+l0
+L39
+V<a@>;C1FN9?kNGCoF4?=T2
+!s100 3J=ozhoINEOzH1ZZU<@af2
+R11
+32
+Z23 !s110 1485881064
+!i10b 1
+Z24 !s108 1485881064.000000
+Z25 !s90 -reportprogress|300|-work|work|I:/EE 310/altera/lab2/simulation/modelsim/d_ff_tb.vho|
+Z26 !s107 I:/EE 310/altera/lab2/simulation/modelsim/d_ff_tb.vho|
+!i113 1
+R16
+R17
+Astructure
+R3
+R5
+R8
+R2
+R19
+R4
+R6
+R7
+R20
+Z27 DEx4 work 7 d_ff_tb 0 22 <a@>;C1FN9?kNGCoF4?=T2
+l78
+L55
+Z28 VIE_`Dn7U;Ol_FLzdHFbVl3
+Z29 !s100 D9g^jG=nVXNU=B@JS;]2R0
+R11
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R16
+R17
