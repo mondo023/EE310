@@ -1,0 +1,8 @@
+add wave -in *
+add wave -out *
+
+force value "00001010"
+
+
+force opcode "00000000"
+force opcode "00000001"
