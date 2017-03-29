@@ -1,8 +1,52 @@
 add wave -in *
 add wave -out *
+restart -f
 
-force value "00001010"
+
+force mdr x"00"
+force ac x"55"
+force value_in x"36"
 
 
-force opcode "00000000"
-force opcode "00000001"
+force opcode x"00"
+run 40ns
+force opcode x"01"
+run 40ns
+force opcode x"02"
+run 40ns
+force opcode x"03"
+run 40ns
+force opcode x"04"
+run 40ns
+force opcode x"05"
+run 40ns
+force opcode x"06"
+run 40ns
+force opcode x"07"
+run 40ns
+force opcode x"08"
+run 40ns
+force opcode x"09"
+run 40ns
+force opcode x"0A"
+run 40ns
+force opcode x"0B"
+run 40ns
+force opcode x"0C"
+run 40ns
+force opcode x"0D"
+run 40ns
+force opcode x"0E"
+run 40ns
+force opcode x"0F"
+run 40ns
+force opcode x"10"
+run 40ns
+force opcode x"11"
+run 40ns
+force opcode x"12"
+run 40ns
+force opcode x"13"
+run 40ns
+force opcode x"14"
+run 40ns
