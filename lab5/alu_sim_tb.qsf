@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CGXFC5C6F27C7
-set_global_assignment -name TOP_LEVEL_ENTITY alu_sim_tb
+set_global_assignment -name TOP_LEVEL_ENTITY alu_sim
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.0.2
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:22:10  MARCH 21, 2017"
 set_global_assignment -name LAST_QUARTUS_VERSION 16.0.2
@@ -126,6 +126,7 @@ set_location_assignment PIN_G7 -to LEDR[3]
 set_location_assignment PIN_G6 -to LEDR[2]
 set_location_assignment PIN_F6 -to LEDR[1]
 set_location_assignment PIN_F7 -to LEDR[0]
+set_global_assignment -name BDF_FILE alu_sim.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

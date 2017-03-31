@@ -67,10 +67,11 @@ architecture behav of alu is
 					temp_z <= (ac xor mdr);
 				
 				when x"0E" =>
-					temp_z <= signed(std_logic_vector(ac sll to_integer(value_in(2 downto 0))));
+					temp_z <= ac sll to_integer(unsigned(value_in(2 downto 0)));
+				
 				
 				when x"0F" =>
-					temp_z <= signed(std_logic_vector(ac srl to_integer(value_in(2 downto 0))));
+					temp_z <= ac srl to_integer(unsigned(value_in(2 downto 0)));
 				
 				when x"10" =>
 					load_pc <= '1';

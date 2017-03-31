@@ -2,7 +2,6 @@ add wave -in *
 add wave -out *
 restart -f
 
-
 force mdr x"00"
 force ac x"55"
 force value_in x"36"

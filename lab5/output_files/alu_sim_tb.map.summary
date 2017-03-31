@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Tue Mar 28 13:07:38 2017
+Analysis & Synthesis Status : Successful - Thu Mar 30 12:14:48 2017
 Quartus Prime Version : 16.0.2 Build 222 07/20/2016 SJ Standard Edition
 Revision Name : alu_sim_tb
-Top-level Entity Name : alu_sim_tb
+Top-level Entity Name : alu_sim
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 60
+Total pins : 42
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

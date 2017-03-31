@@ -8,34 +8,32 @@ z2
 !i10f 100
 cModel Technology
 Z0 dI:/EE 310/altera/lab5/simulation/modelsim
-Ealu_sim_tb
-Z1 w1490723084
-Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 7m_3?ER^m`lJ;P@g>WSdP3
-Z3 DPx8 cyclonev 19 cyclonev_components 0 22 Y1SMazmlfT^N6ce3cZcWb3
-Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 Oc7BZ>JHn==<@iL2AS6dl0
-Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z6 DPx6 altera 11 dffeas_pack 0 22 f]3lf9@YecQXY?:9nU3z[2
-Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z10 DPx6 altera 28 altera_primitives_components 0 22 Y1<AEW^7fEcRY3jd0@`=U2
+Ealu_sim
+Z1 w1490900996
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 7m_3?ER^m`lJ;P@g>WSdP3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 Y1SMazmlfT^N6ce3cZcWb3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 Oc7BZ>JHn==<@iL2AS6dl0
 R0
-Z11 8I:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho
-Z12 FI:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho
+Z9 8I:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho
+Z10 FI:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho
 l0
-L39
-VVHzA]=3C?5hCCD60cFP_j2
-!s100 HWRUlofC[OS^dcl_h^;:=3
-Z13 OV;C;10.4d;61
+L37
+Vha5[jFf>R:L9j=<`XSQ5I0
+!s100 ^aXFkU[n_iLK8JJ[NXIQK2
+Z11 OV;C;10.4d;61
 32
-Z14 !s110 1490723355
+Z12 !s110 1490901013
 !i10b 1
-Z15 !s108 1490723354.000000
-Z16 !s90 -reportprogress|300|-work|work|I:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho|
-Z17 !s107 I:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho|
+Z13 !s108 1490901012.000000
+Z14 !s90 -reportprogress|300|-work|work|I:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho|
+Z15 !s107 I:/EE 310/altera/lab5/simulation/modelsim/alu_sim_tb.vho|
 !i113 1
-Z18 o-work work
-Z19 tExplicit 1
+Z16 o-work work
+Z17 tExplicit 1
 Astructure
 R2
 R3
@@ -44,20 +42,67 @@ R5
 R6
 R7
 R8
-R9
-R10
-DEx4 work 10 alu_sim_tb 0 22 VHzA]=3C?5hCCD60cFP_j2
-l292
-L81
-V`Uk5m04dYG?UkfSAX0CK11
-!s100 XVji@MC?R?;DEJY[bHm:o1
-R13
+Z18 DEx4 work 7 alu_sim 0 22 ha5[jFf>R:L9j=<`XSQ5I0
+l383
+L94
+Vi_i5;AS<>m;:obm>RM9<_3
+!s100 P_PI;146Oj0W=L6NOMmi91
+R11
 32
-R14
+R12
 !i10b 1
+R13
+R14
 R15
+!i113 1
 R16
 R17
+Ealu_sim_tb
+Z19 w1490899306
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+R9
+R10
+l0
+L37
+Vo8]0d=iFO5`5GETf_V5[P2
+!s100 HbjJVG=M9Wdm>?9k3^1RC0
+R11
+32
+Z20 !s110 1490899326
+!i10b 1
+Z21 !s108 1490899325.000000
+R14
+R15
 !i113 1
-R18
-R19
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 10 alu_sim_tb 0 22 o8]0d=iFO5`5GETf_V5[P2
+l431
+L113
+V??Zc<0Yih[XN<d_0a3^3I1
+!s100 znjJX1[LP]PRED6R`i4YM1
+R11
+32
+R20
+!i10b 1
+R21
+R14
+R15
+!i113 1
+R16
+R17
