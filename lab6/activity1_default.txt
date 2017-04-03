@@ -1,0 +1,13 @@
+add wave -in *
+add wave -out *
+restart -f
+
+force clock 0 0ns, 1 50ns -r 100ns;
+force data(7 downto 0) "11111111";
+force wren 0;
+force address(0) 0 0ns, 1 100ns -r 200ns;
+force address(1) 0 0ns, 1 200ns -r 400ns;
+force address(2) 0 0ns, 1 400ns -r 800ns;
+force address(3) 0 0ns, 1 800ns -r 1600ns;
+force address(7 downto 4) "0000";
+run 1600ns;
