@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sun Apr 02 19:53:08 2017
+Analysis & Synthesis Status : Successful - Tue Apr 04 11:19:28 2017
 Quartus Prime Version : 16.0.2 Build 222 07/20/2016 SJ Standard Edition
 Revision Name : lab6
-Top-level Entity Name : ramlpm_activity1
+Top-level Entity Name : lab6_board_tb
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 26
+Total pins : 50
 Total virtual pins : 0
 Total block memory bits : 2,048
 Total DSP Blocks : 0

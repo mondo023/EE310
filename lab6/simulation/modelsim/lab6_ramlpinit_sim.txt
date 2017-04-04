@@ -1,0 +1,39 @@
+add wave -in *
+add wave -out *
+restart -f
+
+force clk 0 0ns, 1 20ns -r 40ns
+force wren 0
+
+force address x"00"
+run 40ns
+force address x"01"
+run 40ns
+force address x"02"
+run 40ns
+force address x"03"
+run 40ns
+force address x"04"
+run 40ns
+force address x"05"
+run 40ns
+force address x"06"
+run 40ns
+force address x"07"
+run 40ns
+force address x"08"
+run 40ns
+force address x"09"
+run 40ns
+force address x"0A"
+run 40ns
+force address x"0B"
+run 40ns
+force address x"0C"
+run 40ns
+force address x"0D"
+run 40ns
+force address x"0E"
+run 40ns
+force address x"0F"
+run 40ns

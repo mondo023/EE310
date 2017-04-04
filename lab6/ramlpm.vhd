@@ -155,5 +155,5 @@ END SYN;
 -- Retrieval info: GEN_FILE: TYPE_NORMAL ramlpm.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL ramlpm.cmp TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL ramlpm.bsf TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL ramlpm_inst.vhd FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL ramlpm_inst.vhd TRUE
 -- Retrieval info: LIB_FILE: altera_mf

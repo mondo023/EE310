@@ -1,0 +1,59 @@
+add wave -in *
+add wave -out *
+restart -f
+
+force wren 1
+force clk 0 0ns, 1 20ns -r 40ns
+
+
+force address x"00"
+force data x"0F"
+run 40ns
+
+force address x"01"
+force data x"1E"
+run 40ns
+force address x"02"
+force data x"2D"
+run 40ns
+force address x"03"
+force data x"3C"
+run 40ns
+force address x"04"
+force data x"4B"
+run 40ns
+force address x"05"
+force data x"5A"
+run 40ns
+force address x"06"
+force data x"69"
+run 40ns
+force address x"07"
+force data x"78"
+run 40ns
+force address x"08"
+force data x"87"
+run 40ns
+force address x"09"
+force data x"96"
+run 40ns
+force address x"0A"
+force data x"A5"
+run 40ns
+force address x"0B"
+force data x"B4"
+run 40ns
+force address x"0C"
+force data x"C3"
+run 40ns
+force address x"0D"
+force data x"D2"
+run 40ns
+force address x"0E"
+force data x"E1"
+run 40ns
+force address x"0F"
+force data x"F0"
+run 40ns
+
+

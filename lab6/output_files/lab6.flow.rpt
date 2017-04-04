@@ -1,5 +1,5 @@
 Flow report for lab6
-Sun Apr 02 19:55:33 2017
+Tue Apr 04 11:20:36 2017
 Quartus Prime Version 16.0.2 Build 222 07/20/2016 SJ Standard Edition
 
 
@@ -41,16 +41,16 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Sun Apr 02 19:55:33 2017           ;
+; Flow Status                     ; Successful - Tue Apr 04 11:20:36 2017           ;
 ; Quartus Prime Version           ; 16.0.2 Build 222 07/20/2016 SJ Standard Edition ;
 ; Revision Name                   ; lab6                                            ;
-; Top-level Entity Name           ; ramlpm_activity1                                ;
+; Top-level Entity Name           ; lab6_board_tb                                   ;
 ; Family                          ; Cyclone V                                       ;
 ; Device                          ; 5CGXFC5C6F27C7                                  ;
 ; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 1 / 29,080 ( < 1 % )                            ;
+; Logic utilization (in ALMs)     ; 25 / 29,080 ( < 1 % )                           ;
 ; Total registers                 ; 0                                               ;
-; Total pins                      ; 26 / 364 ( 7 % )                                ;
+; Total pins                      ; 50 / 364 ( 14 % )                               ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 2,048 / 4,567,040 ( < 1 % )                     ;
 ; Total DSP Blocks                ; 0 / 150 ( 0 % )                                 ;
@@ -68,31 +68,42 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/02/2017 19:52:36 ;
+; Start date & time ; 04/04/2017 11:19:15 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab6                ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                         ;
-+-------------------------------------+--------------------------------+---------------+------------------+----------------+
-; Assignment Name                     ; Value                          ; Default Value ; Entity Name      ; Section Id     ;
-+-------------------------------------+--------------------------------+---------------+------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 40368363411612.149118795607072 ; --            ; --               ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --               ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --               ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                           ; --            ; --               ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --               ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --               ; --             ;
-; MISC_FILE                           ; ramlpm.bsf                     ; --            ; --               ; --             ;
-; MISC_FILE                           ; ramlpm.cmp                     ; --            ; --               ; --             ;
-; PARTITION_COLOR                     ; 16764057                       ; --            ; ramlpm_activity1 ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; ramlpm_activity1 ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; ramlpm_activity1 ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --               ; --             ;
-; TOP_LEVEL_ENTITY                    ; ramlpm_activity1               ; lab6          ; --               ; --             ;
-+-------------------------------------+--------------------------------+---------------+------------------+----------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++-------------------------------------+---------------------------------------+---------------+---------------+----------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name   ; Section Id     ;
++-------------------------------------+---------------------------------------+---------------+---------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 26403095944687.149132995507692        ; --            ; --            ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --            ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --            ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                  ; --            ; --            ; eda_simulation ;
+; FITTER_EFFORT                       ; Standard Fit                          ; Auto Fit      ; --            ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --            ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --            ; --             ;
+; MISC_FILE                           ; amlpminit.bsf                         ; --            ; --            ; --             ;
+; MISC_FILE                           ; amlpminit_inst.vhd                    ; --            ; --            ; --             ;
+; MISC_FILE                           ; amlpminit.cmp                         ; --            ; --            ; --             ;
+; MISC_FILE                           ; ramlpminit.bsf                        ; --            ; --            ; --             ;
+; MISC_FILE                           ; ramlpminit_inst.vhd                   ; --            ; --            ; --             ;
+; MISC_FILE                           ; ramlpminit.cmp                        ; --            ; --            ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                     ; --            ; --            ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                     ; --            ; --            ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                            ; --            ; --            ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                            ; --            ; --            ; --             ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; lab6_board_tb ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; lab6_board_tb ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; lab6_board_tb ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --            ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --            ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --            ; --             ;
+; TOP_LEVEL_ENTITY                    ; lab6_board_tb                         ; lab6          ; --            ; --             ;
++-------------------------------------+---------------------------------------+---------------+---------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -100,12 +111,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:30     ; 1.0                     ; 946 MB              ; 00:00:57                           ;
-; Fitter                    ; 00:01:34     ; 1.0                     ; 3779 MB             ; 00:06:45                           ;
-; Assembler                 ; 00:00:18     ; 1.0                     ; 888 MB              ; 00:00:17                           ;
-; TimeQuest Timing Analyzer ; 00:00:18     ; 1.1                     ; 1327 MB             ; 00:00:17                           ;
-; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 798 MB              ; 00:00:04                           ;
-; Total                     ; 00:02:44     ; --                      ; --                  ; 00:08:20                           ;
+; Analysis & Synthesis      ; 00:00:13     ; 1.0                     ; 969 MB              ; 00:00:25                           ;
+; Fitter                    ; 00:00:28     ; 1.0                     ; 2646 MB             ; 00:00:41                           ;
+; Assembler                 ; 00:00:17     ; 1.0                     ; 909 MB              ; 00:00:09                           ;
+; TimeQuest Timing Analyzer ; 00:00:10     ; 1.0                     ; 1287 MB             ; 00:00:07                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 823 MB              ; 00:00:01                           ;
+; Total                     ; 00:01:10     ; --                      ; --                  ; 00:01:23                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,11 +125,11 @@ agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; RODIA            ; Windows 8 ; 6.2        ; x86_64         ;
-; Fitter                    ; RODIA            ; Windows 8 ; 6.2        ; x86_64         ;
-; Assembler                 ; RODIA            ; Windows 8 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; RODIA            ; Windows 8 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; RODIA            ; Windows 8 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; EGR235-09        ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; EGR235-09        ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; EGR235-09        ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; EGR235-09        ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; EGR235-09        ; Windows 8 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
