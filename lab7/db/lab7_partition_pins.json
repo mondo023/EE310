@@ -1,0 +1,197 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "load_iru",
+					"strict" : false
+				},
+				{
+					"name" : "load_irl",
+					"strict" : false
+				},
+				{
+					"name" : "incr_pc",
+					"strict" : false
+				},
+				{
+					"name" : "iru[7]",
+					"strict" : false
+				},
+				{
+					"name" : "iru[6]",
+					"strict" : false
+				},
+				{
+					"name" : "iru[5]",
+					"strict" : false
+				},
+				{
+					"name" : "iru[4]",
+					"strict" : false
+				},
+				{
+					"name" : "iru[3]",
+					"strict" : false
+				},
+				{
+					"name" : "iru[2]",
+					"strict" : false
+				},
+				{
+					"name" : "iru[1]",
+					"strict" : false
+				},
+				{
+					"name" : "iru[0]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[7]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[6]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[5]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[4]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[3]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "irl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mar[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mdr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'controlUnit:inst2|presentState.start'
+Slack : -4.617
+TNS   : -16.886
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.752
+TNS   : -68.999
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'controlUnit:inst2|presentState.start'
+Slack : 2.953
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -92.446
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'controlUnit:inst2|presentState.start'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'controlUnit:inst2|presentState.start'
+Slack : -4.626
+TNS   : -16.787
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -2.896
+TNS   : -66.245
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'controlUnit:inst2|presentState.start'
+Slack : 2.863
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -92.998
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'controlUnit:inst2|presentState.start'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'controlUnit:inst2|presentState.start'
+Slack : -1.804
+TNS   : -6.600
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -1.450
+TNS   : -33.773
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'controlUnit:inst2|presentState.start'
+Slack : 1.735
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -58.834
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'controlUnit:inst2|presentState.start'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'controlUnit:inst2|presentState.start'
+Slack : -1.724
+TNS   : -6.281
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.003
+TNS   : -23.658
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'controlUnit:inst2|presentState.start'
+Slack : 1.692
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -58.802
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'controlUnit:inst2|presentState.start'
+Slack : 0.473
+TNS   : 0.000
+
+------------------------------------------------------------
