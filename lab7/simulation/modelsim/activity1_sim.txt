@@ -1,0 +1,252 @@
+restart -f
+add wave -in *
+add wave -out *
+
+force clk 0 0ns, 1 50ns -r 100ns
+
+#init all inputs to 0
+
+
+# cycle 1 clear PC,IR
+force reset 1
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 2 MAR <- PC, prep for fetch
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1 
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 3 IRU<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 1
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 4 MAR<- PC, prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 5 IRL<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 1
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 6 load the accumulator
+force reset 0
+force load_ac 1
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 7 MAR<- PC, prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 8 IRU<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 1
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 9 MAR<-PC, prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 10 IRL<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 1
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 11 Write AC into memory at IRL ADDR
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+#changed fetch from 1 to load IRL to address
+#data should be 09 or E7?
+force fetch 0
+force store_mem 1
+force incr_pc 0
+run 100ns
+
+# cycle 12 MAR<- PC, prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 13 IRU<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 1
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 14 MAR<-PC, prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 15 IRL<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 1
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 16 load the accumulator
+force reset 0
+force load_ac 1
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 17 MAR<-PC, prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 18 IRU<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 1
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 19 MAR<-PC,prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 20 IRL<-MDR, increment PC
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 1
+force fetch 1
+force store_mem 0
+force incr_pc 1
+run 100ns
+
+# cycle 21 load the program counter
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 1
+force load_irl 0
+force fetch 0
+force store_mem 0
+force incr_pc 0
+run 100ns
+
+# cycle 22 MAR<-PC, prep read cycle
+force reset 0
+force load_ac 0
+force load_iru 0
+force load_pc 0
+force load_irl 0
+force fetch 1
+force store_mem 0
+force incr_pc 0
+run 100ns

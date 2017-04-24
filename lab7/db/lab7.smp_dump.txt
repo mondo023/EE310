@@ -1,0 +1,8 @@
+
+State Machine - |controlUnit_tb|controlUnit:inst2|presentState
+Name presentState.fetchL presentState.prepL presentState.fetchU presentState.prepU presentState.start 
+presentState.start 0 0 0 0 0 
+presentState.prepU 0 0 0 1 1 
+presentState.fetchU 0 0 1 0 1 
+presentState.prepL 0 1 0 0 1 
+presentState.fetchL 1 0 0 0 1 
